@@ -5,9 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Leo D.</title>
+    <link rel="icon" type= "image/png" href="img/l.png"/>
+    
 </head>
 <body>
     <header> 
+
+    <div>
+      <figure>
+        <img src="" alt="">
+      </figure>
+    </div>
         <nav>
           <ul>
               <li>
@@ -23,7 +31,8 @@
         </nav>
     </header>
     <section>seccion principal
-        <h1>Leonardo Daniel, Desarrollador FullStack y Animador por diversion.</h1>    
+        <h1>Leonardo Daniel, Desarrollador FullStack y Animador por diversion.</h1>
+        <img src="img/hero.jpg" alt="hero.jpg" width=500px/>    
     </section>
     <section>seccion portafolio</section>
     <section>seccion de contacto</section>
