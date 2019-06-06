@@ -22,7 +22,9 @@
           </ul>              
         </nav>
     </header>
-    <section>seccion principal</section>
+    <section>seccion principal
+        <h1>Leonardo Daniel, Desarrollador FullStack y Animador por diversion.</h1>    
+    </section>
     <section>seccion portafolio</section>
     <section>seccion de contacto</section>
     <section>footer</section>
