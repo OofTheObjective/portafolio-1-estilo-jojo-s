@@ -43,17 +43,24 @@
         <p><small><strong>Mirar </strong> www.github.com</small></p>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione odio ex et delectus, blanditiis quos exercitationem doloribus reprehenderit numquam hic quaerat enim molestiae architecto at quod, voluptate veritatis incidunt impedit?</p>
       </article>
+      <article>
+        <h3>Red social</h3>
+        <h6>MEAN STACK</h6>
+        <p><small><strong>Fecha: </strong>10/06/19</small></p>
+        <p><small><strong>Mirar: </strong> https://www.github.com</small></p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam rem dolorum iure beatae laudantium voluptatem aspernatur optio temporibus non eaque sequi impedit, dolores adipisci numquam inventore ratione vero facere delectus!</p>
+      </article>
     </section>
     <section><!--seccion de contacto-->
       <form action="">
           <h3><strong>Contactame</strong></h3>
           <input type="text" placeholder ="correo@contacto.com"> 
           <h4>Asunto</h4>
-          <textarea name="asunto" id="Asunto" cols="30" rows="10"></textarea>
+          <textarea name="asunto" id="Asunto" cols="40" rows="5"></textarea>
           <input type="submit" value="Enviar">    
       </form>
     </section>
-    <section>footer</section>
+    <section><p><small><strong>Todos los derechos reservados &c Leonardo D. Gtz Medellin.</strong></small></p></section>
     
 </body>
 </html>
