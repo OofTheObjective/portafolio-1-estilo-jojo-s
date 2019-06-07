@@ -13,7 +13,7 @@
 
     <div>
       <figure>
-        <img src="" alt="">
+        <img src="" alt="logo.jpeg">
       </figure>
     </div>
         <nav>
@@ -41,6 +41,7 @@
         <h6>WAMP STACK</h6>
         <p><small><strong>Fecha: </strong> 08/06/19</small></p>
         <p><small><strong>Mirar </strong> www.github.com</small></p>
+        <figure><img src="img/blog.jpg" alt="blog.jpg" width= 500px></figure>
         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione odio ex et delectus, blanditiis quos exercitationem doloribus reprehenderit numquam hic quaerat enim molestiae architecto at quod, voluptate veritatis incidunt impedit?</p>
       </article>
       <article>
@@ -48,6 +49,7 @@
         <h6>MEAN STACK</h6>
         <p><small><strong>Fecha: </strong>10/06/19</small></p>
         <p><small><strong>Mirar: </strong> https://www.github.com</small></p>
+        <figure><img src="img/red.jpg" alt="red.jpg" width=500px></figure>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam rem dolorum iure beatae laudantium voluptatem aspernatur optio temporibus non eaque sequi impedit, dolores adipisci numquam inventore ratione vero facere delectus!</p>
       </article>
     </section>
