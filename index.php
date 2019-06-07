@@ -30,12 +30,29 @@
           </ul>              
         </nav>
     </header>
-    <section>seccion principal
+    <section><!--seccion principal-->
         <h1>Leonardo Daniel, Desarrollador FullStack y Animador por diversion.</h1>
         <img src="img/hero.jpg" alt="hero.jpg" width=500px/>    
     </section>
-    <section>seccion portafolio</section>
-    <section>seccion de contacto</section>
+    <section><!--seccion portafolio-->
+      <h2>Proyectos en Programacion</h2>
+      <article>
+        <h3>Blog anime</h3>
+        <h6>WAMP STACK</h6>
+        <p><small><strong>Fecha: </strong> 08/06/19</small></p>
+        <p><small><strong>Mirar </strong> www.github.com</small></p>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione odio ex et delectus, blanditiis quos exercitationem doloribus reprehenderit numquam hic quaerat enim molestiae architecto at quod, voluptate veritatis incidunt impedit?</p>
+      </article>
+    </section>
+    <section><!--seccion de contacto-->
+      <form action="">
+          <h3><strong>Contactame</strong></h3>
+          <input type="text" placeholder ="correo@contacto.com"> 
+          <h4>Asunto</h4>
+          <textarea name="asunto" id="Asunto" cols="30" rows="10"></textarea>
+          <input type="submit" value="Enviar">    
+      </form>
+    </section>
     <section>footer</section>
     
 </body>
