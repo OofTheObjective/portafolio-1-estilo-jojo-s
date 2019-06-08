@@ -19,22 +19,22 @@
         <nav>
           <ul>
               <li>
-                <a href="">Portafolio</a>
+                <a href="#principal">Quien soy?</a>
               </li>
               <li>
-                <a href="">Experiencia</a>
+                <a href="#portafolio">Experiencia</a>
               </li>
               <li>
-                <a href="">Contacto</a>
+                <a href="#contacto">Contacto</a>
               </li>
           </ul>              
         </nav>
     </header>
-    <section><!--seccion principal-->
+    <section id="principal"><!--seccion principal-->
         <h1>Leonardo Daniel, Desarrollador FullStack y Animador por diversion.</h1>
         <img src="img/hero.jpg" alt="hero.jpg" width=500px/>    
     </section>
-    <section><!--seccion portafolio-->
+    <section id="portafolio"><!--seccion portafolio-->
       <h2>Proyectos en Programacion</h2>
       <article>
         <h3>Blog anime</h3>
@@ -53,7 +53,7 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam rem dolorum iure beatae laudantium voluptatem aspernatur optio temporibus non eaque sequi impedit, dolores adipisci numquam inventore ratione vero facere delectus!</p>
       </article>
     </section>
-    <section><!--seccion de contacto-->
+    <section id="contacto"><!--seccion de contacto-->
       <form action="">
           <h3><strong>Contactame</strong></h3>
           <input type="text" placeholder ="correo@contacto.com"> 
@@ -62,7 +62,7 @@
           <input type="submit" value="Enviar">    
       </form>
     </section>
-    <section><p><small><strong>Todos los derechos reservados &c Leonardo D. Gtz Medellin.</strong></small></p></section>
+    <section><p><small><strong>Todos los derechos reservados &copy Leonardo D. Gtz Medellin.</strong></small></p></section>
     
 </body>
 </html>
