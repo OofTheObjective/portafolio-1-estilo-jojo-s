@@ -1,8 +1,50 @@
 body{
-    background: #fcc976;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
-.link{
-    color : white;
-    list-style: none;
+h1{
+    line-height: 1.5;
+    letter-spacing: -.2px;
+    color:azure;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.hero{
+    
+    height: 300px;
+    background-color:#1b2127;
+    background-image: url('../img/hero.jpg');/*puede quedar bien sin modificacion*/
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+h1 spam{
+    color: #026fff;
+}
+.portfolio{
+    background: #fafafa;
+}
+.project{
+    display: flex;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 35px;
+    padding: 35px;
+    background: #fcc976;
+}
+.project-details{
+    width: 500px;
+}
+.project-imageContainer{
+    width:500px;
+}
+header{
+    background: #1b2127;
+    color: white;
+}
+.header a{
+    color: white;
+    text-decoration: none;
 }
