@@ -7,44 +7,190 @@ h1{
     line-height: 1.5;
     letter-spacing: -.2px;
     color:azure;
+    margin: 0;
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
 }
-h1,h2,h3,h4,h5,h6{
+header{
+    background: #1b2127;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+ul, li{
+    margin: 1rem;
+    padding: 1rem;
+    list-style: none;
+}
+.header ul{
+    display: flex;
+}
+.header li{
+    display: flex;
+}
+.header a{
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    width: 130px;
+    /*border: 1px solid;*/
+    padding: 0 15px;
+    font-size: 18px;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+h2,h3,h4,h5,h6{
+    margin: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+figure{
+    margin: 0;
+}
+.logo{
+    height: 90px;
 }
 .hero{
     
     height: 300px;
     background-color:#1b2127;
-    background-image: url('../img/hero.jpg');/*puede quedar bien sin modificacion*/
-    background-size: 500px 300px;
+    /*background-image: url('../img/hero.jpg');/*puede quedar bien sin modificacion*/
+    /*background-size: 500px 300px;
     background-repeat: no-repeat;
-    background-position-x: right;
+    background-position-x: right;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero img{
+    height: 280px;
 }
 h1 spam{
     color: #026fff;
 }
 .portfolio{
-    background: #fafafa;
+   background: #fafafa;
+   /*background: #1b2127;*/
+}
+.portfolio h2{
+    margin: 0;
+    padding: 5px;
+    color: #026fff;
+    font-family: 'Anton', sans-serif;
+    font-size: 30px;
 }
 .project{
     display: flex;
-    border: 1px solid gray;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid #1b2127;
     border-radius: 5px;
     margin: 35px;
     padding: 35px;
-    background: #fcc976;
+    /*background: #fcc976;*/
+    /*background: #1b2127;*/
+    background-color: #f9f4ea;
+    box-shadow: -11px 11px 21px -3px rgba(27,33,39,1);
 }
 .project-details{
     width: 500px;
+    flex-shrink: 0;
+    
 }
-.project-imageContainer{
-    width:500px;
+.project-imageContainer img{
+        height: 400px;
 }
-header{
-    background: #1b2127;
+
+.contact{
+    margin: 15px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #1b2127;
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+}
+.contact-form{
+    margin: 10px;
+    padding: 15px;
+    color: #fafafa;
+    
+}
+.form{
+    margin: 0;
+    width: 300px;
+    border: 1px solid gray;
+}
+.form.email{
+    height: 25px;
+    background-image: url('../img/mail.svg');
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x:5px;
+    border-radius: 10px;
+    padding: 5px 20px 5px 25px;
+}
+.form.Asunto{
+    border-radius: 10px;
+}
+.contact-form form h3{
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+   }
+.contact-form form h4{
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+}
+.contact-estilo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-estilo .contact-image img{
+    height: 300px;
+    
+}
+.social{
+    padding-right: 10px;
+}
+.social-link{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-size: 40px 40px;
+    /*border: 1px solid  white;*/
+}
+.social-link.twitter{
+    background-image: url('../img/twitter.svg');
+}
+.social-link.github{
+    background-image: url('../img/github.svg');
+}
+.social-link.instagram{
+    background-image: url('../img/instagram.svg');
+    }
+.social-link.facebook{
+    background-image: url('../img/facebook.svg');
+   }
+
+
+.enviar{
+    border-radius: 7px;
+    width: 110px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 15px;
+    background: transparent;
+    color:white;
+}
+.footer{
     color: white;
-}
-.header a{
-    color: white;
-    text-decoration: none;
+    padding: 10px;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
