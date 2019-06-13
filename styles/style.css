@@ -58,6 +58,7 @@ figure{
     background-position-x: right;*/
     display: flex;
     align-items: center;
+    padding: 0 15px;
     justify-content: space-between;
 }
 .hero img{
